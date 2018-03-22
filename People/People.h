@@ -6,10 +6,11 @@
 #define LAB7_PEOPLE_H
 
 #include <iostream>
+#include "../State/Budget.h"
 
 using namespace std;
 
-class People {
+class People : public Budget{
 protected:
     int population;
     string nation;

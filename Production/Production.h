@@ -6,10 +6,12 @@
 #define LAB7_PRODUCTION_H
 
 #include <iostream>
+#include "../State/Budget.h"
+
 using namespace std;
 
 
-class Production {
+class Production : public Budget{
 public:
     virtual ~Production();
 
