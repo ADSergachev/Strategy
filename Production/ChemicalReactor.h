@@ -7,13 +7,14 @@
 
 #include <iostream>
 #include "Production.h"
+#include "../People/Scientists.h"
 
 using namespace std;
 
-class ChemicalReactor : public Production{
+class ChemicalReactor : public Production, public Scientists{
 public:
     int kolvo;
-    explicit ChemicalReactor(int kolvo){
+    explicit ChemicalReactor(double prosents, int kolvo) : Scientists(prosents) {
         this->kolvo = kolvo;
     };
 
