@@ -1,6 +1,11 @@
 #include <iostream>
+#include "People/People.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    People people(149000000, "китайцы");
+    people.printPeople();
+
     return 0;
 }
