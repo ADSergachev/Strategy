@@ -18,12 +18,12 @@ public:
 
     bool isProduction{};
 
-    virtual void startProduction(){
+    void startProduction(){
         isProduction = true;
         cout << "Производство запущено\n";
     }
 
-    virtual void stopProduction(){
+    void stopProduction(){
         isProduction = false;
         cout << "Производство остановлено\n";
     }

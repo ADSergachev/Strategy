@@ -18,9 +18,7 @@ public:
 
 };
 
-Production::~Production() {
-
-}
+Production::~Production() = default;
 
 
 #endif //LAB7_PRODUCTION_H
