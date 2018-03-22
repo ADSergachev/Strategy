@@ -14,9 +14,10 @@ class Millitary : public People{
 private:
     double prosents;
 public:
-    explicit Millitary(int prosents){
+    explicit Millitary(double prosents){
         this->prosents = prosents;
     }
+
 
 };
 
