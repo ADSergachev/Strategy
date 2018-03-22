@@ -10,7 +10,7 @@
 using namespace std;
 
 class People {
-private:
+protected:
     int population;
     string nation;
 public:
@@ -29,6 +29,7 @@ public:
 
     }
 };
+
 
 
 #endif //LAB7_PEOPLE_H
